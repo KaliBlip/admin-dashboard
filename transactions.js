@@ -1,4 +1,4 @@
-const orders = [
+const transactions = [
   {
     productName: "Foldable Mini Drone",
     productNumber: "85631",

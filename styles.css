@@ -352,16 +352,16 @@ main .insights small {
   display: block;
 }
 
-/* ======================= RECENT ORDERS ======================== */
-main .recent-orders {
+/* ======================= RECENT transactions ======================== */
+main .recent-transactions {
   margin-top: 2rem;
 }
 
-main .recent-orders h2 {
+main .recent-transactions h2 {
   margin-bottom: 0.8rem;
 }
 
-main .recent-orders table {
+main .recent-transactions table {
   background: var(--color-white);
   width: 100%;
   border-radius: var(--card-board-radius);
@@ -371,7 +371,7 @@ main .recent-orders table {
   transition: all 300ms ease;
 }
 
-main .recent-orders table:hover {
+main .recent-transactions table:hover {
   box-shadow: none;
 }
 
@@ -385,7 +385,7 @@ main table tbody tr:last-child td {
   border: none;
 }
 
-main .recent-orders a {
+main .recent-transactions a {
   text-align: center;
   display: block;
   margin: 1rem auto;
@@ -569,7 +569,7 @@ main .recent-orders a {
     gap: 0;
   }
 
-  main .recent-orders {
+  main .recent-transactions {
     width: 94%;
     position: absolute;
     left: 50%;
@@ -577,7 +577,7 @@ main .recent-orders a {
     margin: 2rem 0 0 8.8rem;
   }
 
-  main .recent-orders table {
+  main .recent-transactions table {
     width: 83vw;
   }
 
@@ -650,13 +650,13 @@ main .recent-orders a {
     padding: 0 1rem;
   }
 
-  main .recent-orders {
+  main .recent-transactions {
     position: relative;
     margin: 3rem 0 0 0;
     width: 100%;
   }
 
-  main .recent-orders table {
+  main .recent-transactions table {
     width: 100%;
     margin: 0;
   }

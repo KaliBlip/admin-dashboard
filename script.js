@@ -23,8 +23,8 @@ themeToggler.addEventListener("click", () => {
   themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
 });
 
-// fill orders in table
-orders.forEach((order) => {
+// fill transactions in table
+transactions.forEach((order) => {
   const tr = document.createElement("tr");
   const trContent = `
   <td>${order.productName}</td>
